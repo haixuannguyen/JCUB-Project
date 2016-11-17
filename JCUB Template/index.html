@@ -39,23 +39,27 @@ $('#lightSlider').lightSlider({
 	
     <header id="header-container">
         <nav class="navbar">
+		<div class="container">
+        <div class="row">
 		<div id="top-menu" class="col-md-12">
            <ul class="nav navbar-nav navbar-right">
                 <li id="menu-item-122" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-122"><a href="http://testing.jcub.edu.au/current-students/library/">Library</a></li>
-				<li class="divider-vertical"></li>
+				<li class="divider-vertical hidden-xs"></li>
 				<li id="menu-item-121" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-121"><a href="https://learnjcu.jcu.edu.au/">Learn JCU</a></li>
-				<li class="divider-vertical"></li>
+				<li class="divider-vertical hidden-xs"></li>
 				<li id="menu-item-123" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-123"><a href="https://secure.jcu.edu.au/eStudent/login.aspx?ReturnUrl=%2feStudent%2fDefault.aspx">eStudent</a></li>
-				<li class="divider-vertical"></li>
+				<li class="divider-vertical hidden-xs"></li>
 				<li id="menu-item-124" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-124"><a href="https://login.microsoftonline.com/login.srf?wa=wsignin1.0&amp;rpsnv=4&amp;ct=1445489637&amp;rver=6.6.6556.0&amp;wp=MBI_SSL&amp;wreply=https%3a%2f%2foutlook.office365.com%2fowa%2f%3frealm%3dmy.jcu.edu.au&amp;id=260563&amp;whr=my.jcu.edu.au&amp;CBCXT=out&amp;msafed=0">Student WebMail</a></li>
-			</ul>		
+			</ul>
+		</div>
+		</div>
     </div>
             <div class="container">
                 <div class="row">
                     <div class="col-md-8">
                         <div class="navbar-header">
                             <a class="navbar-brand" href="#">
-                                <img src="http://testing.jcub.edu.au/wp-content/uploads/2016/08/JCU_Logo_RGB_REV_BrisCampus-e1472093117634.png" alt="JCU Brisbane" itemprop="image">
+                                <img src="images/logo.png" alt="JCU Brisbane" itemprop="image">
                                
 									
                             </a>
@@ -67,8 +71,8 @@ $('#lightSlider').lightSlider({
 								<form role="search" method="get" class="search-form" action="http://testing.jcub.edu.au/">
 									<label>
 										<span class="screen-reader-text"</span>
-										<input type="search" class="search-field" placeholder="Search …" value="" name="s">
-										<button type="submit" class="search-submit btn btn-primary"><span class="glyphicon glyphicon-search"></span></button>
+										<input type="search" class="search-field" placeholder="Search …" value="" name="s" style="background-image: url('images/searchicon.png');">
+										
 									</label>
 									
 								</form>
@@ -137,7 +141,7 @@ $('#lightSlider').lightSlider({
                     <div class="col-md-12">
                         <ul class="nav navbar-nav ">
                             <li><a href="#">STUDENTS</a></li>
-                            <li class="divider-vertical"></li>
+                           <li class="divider-vertical hidden-xs"></li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">COURSES <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
@@ -146,7 +150,7 @@ $('#lightSlider').lightSlider({
                                     <li><a href="#">Fees</a></li>
                                 </ul>
                             </li>
-                            <li class="divider-vertical"></li>
+                            <li class="divider-vertical hidden-xs"></li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">EMPLOYEES <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
@@ -155,7 +159,7 @@ $('#lightSlider').lightSlider({
                                     <li><a href="#">Fees</a></li>
                                 </ul>
                             </li>
-                            <li class="divider-vertical"></li>
+                            <li class="divider-vertical hidden-xs"></li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CAREERS <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
@@ -164,9 +168,9 @@ $('#lightSlider').lightSlider({
                                     <li><a href="#">Fees</a></li>
                                 </ul>
                             </li>
-                            <li class="divider-vertical"></li>
+                           <li class="divider-vertical hidden-xs"></li>
                             <li><a href="#">NEWS & EVENT</a></li>
-							 <li class="divider-vertical"></li>
+							<li class="divider-vertical hidden-xs"></li>
                             <li><a href="#">ABOUT</a></li>
                         </ul>
                     </div>
@@ -177,14 +181,14 @@ $('#lightSlider').lightSlider({
 		 <div id="bottom-menu">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12">
-                        <ul class="nav navbar-nav pull-right">
-							<li><a href="#" ><img src="images/circle-icon.png" style="width: 50px;" > <br/>Library </a></li>
-							<li><a href="#" ><img src="images/circle-icon.png" style="width: 50px; " > <br/>Trimester System</a></li>
-							<li><a href="#" ><img src="images/circle-icon.png" style="width: 50px;" > <br/>Joblink</a></li>
-							<li><a href="#" ><img src="images/circle-icon.png" style="width: 50px;" > <br/> FAQs</a></li>         
+                   
+                        <ul class="nav navbar-nav col-md-12 hidden-xs">
+							<li class="col-md-3 "><a href="#" style="text-align: center;"><img src="images/circle-icon.png" style="width: 50px; text-align:  center;" >   <p>Library </p></a></li>
+							<li class="col-md-3"><a href="#" style="text-align: center;"><img src="images/circle-icon.png" style="width: 50px; text-align: center;" > <p>Trimester System</p></a></li>
+							<li class="col-md-3"><a href="#" style="text-align: center;"><img src="images/circle-icon.png" style="width: 50px; text-align: center;" > <p>Joblink </p></a></li>
+							<li class="col-md-3"><a href="#" style="text-align: center; margin-right: -10px;"><img src="images/circle-icon.png" style="width: 50px; text-align: center;" >  <p style="margin-right:6px;">FAQs </p></a></li>  
                          </ul>                         
-                    </div>
+                   
                 </div>
             </div>
         </div>	
@@ -208,7 +212,8 @@ $('#lightSlider').lightSlider({
 								<form role="search" method="get" class="search-form" action="http://testing.jcub.edu.au/">
 									<label>
 										<span class="screen-reader-text"></span>
-										<input type="text" class="search-field" placeholder="Degree Search" value="" name="s" style="background-image: url('images/searchicon.png');">	
+										<input type="text" class="search-field" placeholder="Degree Search" value="" name="s">
+										<button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-search"></span></button>
 									</label>
 									
 								</form>
@@ -245,16 +250,16 @@ $('#lightSlider').lightSlider({
 					<div class="services">
 						<div class="container_services">
 							<h2 class="home_title">Our Services</h2>
-							<div class="container_services_sub">
-								<div class="services_child">
-									<div class="services_child_image"><img class="" src="images/blue-analytics-icon.png" width="100px" height="100px"></div>
+							<div class="container_services_sub col-md-12">
+								<div class="services_child col-md-4" style= "text-align: left">
+									<div class="services_child_image"><img class="" src="images/blue-analytics-icon.png" style="width:100px; height:100px; margin-left: 50px;"></div>
 									<div class="services_child_title"><a>The Learning Centre</a></div>
 								</div>
-								<div class="services_child">
+								<div class="services_child col-md-4">
 									<div class="services_child_image"><img class="" src="images/hands2.png" width="100px" height="100px"></div>
 									<div class="services_child_title"><a>Student Mentor Program</a></div>
 								</div>
-								<div class="services_child">
+								<div class="services_child col-md-4" style= "text-align: right">
 									<div class="services_child_image"><img class="" src="images/joblinx.png" width="100px" height="100px"></div>
 									<div class="services_child_title"><a href="http://www.joblinx.com.au/">Joblinx</a></div>
 								</div>
@@ -285,36 +290,58 @@ $('#lightSlider').lightSlider({
 	</div>
 	
 		<div class="feedback">
+			<div class="container"
+			<div class="row">
 				<ul id="lightSlider">
-					<li data-thumb="http://www.jcub.edu.au///media/1882702/employer preferred graduates web banner.jpg">
-						<img src="http://www.jcub.edu.au///media/1882702/employer preferred graduates web banner.jpg" />
-						<p>MBA at JCU Brisbane is very unique. When I study the
-							different subjects on offer, I see life in a different way,
-							equipping me to make smart choices. My experience
-							here has been both enlightening and rewarding. </p>
-							<a class="button" href="">APPLY NOW!</a></li>
-					<li data-thumb="http://www.jcub.edu.au//media/1889928/benchaphon phupanpha web banner.jpg">
-						<img src="http://www.jcub.edu.au//media/1889928/benchaphon phupanpha web banner.jpg" />
-						<p>MBA at JCU Brisbane is very unique. When I study the
-							different subjects on offer, I see life in a different way,
-							equipping me to make smart choices. My experience
-							here has been both enlightening and rewarding. </p>
-							<a class="button" href="">APPLY NOW!</a></li>
-					 <li data-thumb="http://www.jcub.edu.au///media/1889912/top-2-percent-web-banner.jpg">
-						<img src="http://www.jcub.edu.au///media/1889912/top-2-percent-web-banner.jpg" />
-						<p>MBA at JCU Brisbane is very unique. When I study the
-							different subjects on offer, I see life in a different way,
-							equipping me to make smart choices. My experience
-							here has been both enlightening and rewarding. </p>
-							<a class="button" href="">APPLY NOW!</a></li>
-					 <li data-thumb="http://www.jcub.edu.au///media/1898951/holiday web banner.jpg">
-						<img src="http://www.jcub.edu.au///media/1898951/holiday web banner.jpg" />
-						<p>MBA at JCU Brisbane is very unique. When I study the
-							different subjects on offer, I see life in a different way,
-							equipping me to make smart choices. My experience
-							here has been both enlightening and rewarding. </p>
-							<a class="button" href="">APPLY NOW!</a></li>
+				
+					<li data-thumb ="images/employer preferred graduates web banner.jpg ">
+						<img class="feedback-image col-md-6 hidden-sm hidden-xs" src="images/employer preferred graduates web banner.jpg" />
+						<div class="feedback-content col-md-6">
+							<p> MBA at JCU Brisbane is very unique. When I study the
+								different subjects on offer, I see life in a different way,
+								equipping me to make smart choices. My experience
+								here has been both enlightening and rewarding.<br/>
+							<a class="button" href="">APPLY NOW!</a></p>
+						</div>
+					</li>
+					
+					<li data-thumb="images/benchaphon phupanpha web banner.jpg">
+						<img class="feedback-image col-md-6 hidden-sm hidden-xs" src="images/benchaphon phupanpha web banner.jpg" />
+						<div class="feedback-content col-md-6">
+							<p> MBA at JCU Brisbane is very unique. When I study the
+								different subjects on offer, I see life in a different way,
+								equipping me to make smart choices. My experience
+								here has been both enlightening and rewarding.<br/>
+							<a class="button" href="">APPLY NOW!</a></p>
+						</div>
+					</li>
+					
+					<li data-thumb="images/top-2-percent-web-banner.jpg">
+						<img class="feedback-image col-md-6 hidden-sm hidden-xs" src="images/top-2-percent-web-banner.jpg" />
+						<div class="feedback-content col-md-6">
+							<p> MBA at JCU Brisbane is very unique. When I study the
+								different subjects on offer, I see life in a different way,
+								equipping me to make smart choices. My experience
+								here has been both enlightening and rewarding.<br/>
+							<a class="button" href="">APPLY NOW!</a></p>
+						</div>
+					</li>
+					
+					<li data-thumb="images/welcometotrimester3-2016-web-banner.jpg">
+						<img class="feedback-image col-md-6 hidden-sm hidden-xs" src="images/welcometotrimester3-2016-web-banner.jpg" />
+						<div class="feedback-content col-md-6">
+							<p> MBA at JCU Brisbane is very unique. When I study the
+								different subjects on offer, I see life in a different way,
+								equipping me to make smart choices. My experience
+								here has been both enlightening and rewarding.<br/>
+							<a class="button" href="">APPLY NOW!</a></p>
+						</div>
+					</li>
+				
 				</ul>
+			</div>
+			</div>
+			</div>
 		</div>
 			
 		
